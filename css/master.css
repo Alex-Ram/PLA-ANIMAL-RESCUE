@@ -1,0 +1,215 @@
+/*****
+             *     ,MMM8&&&.            *
+                  MMMM88&&&&&    .
+                 MMMM88&&&&&&&
+     *           MMM88&&&&&&&&
+                 MMM88&&&&&&&&
+                 'MMM88&&&&&&'
+                   'MMM8&&&'      *
+          |\___/|
+          )     (             .              '
+         =\     /=
+           )   (       *
+          /     \
+          |     |
+         /       \
+         \       /
+  _/\_/\_/\__  _/_/\_/\_/\_/\_/\_/\_/\_/\_/\_
+  |  |  |  |( (  |  |  |  |  |  |  |  |  |  |
+  |  |  |  | ) ) |  |  |  |  |  |  |  |  |  |
+  |  |  |  |(_(  |  |  |  |  |  |  |  |  |  |
+  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |
+     |  |  |  |  |  |  |  |  |  |  |  |  |  |
+*****/
+
+
+
+/*************
+GLOBAL
+**************/
+* {
+  padding:0; margin:0;
+}
+
+body  {
+  font-family: 'Latao';
+  font-size:15px;
+  background:#BFD8D2;
+  color:#707C80;
+}
+
+h1{
+  font-family: 'Latao';
+  font-size:22px;
+  color:#DF744A;
+  font-weight:bolder;
+}
+h2 {
+  font-family: 'Latao';
+  font-size:20px;
+  color:#DF744A;
+  font-weight:normal;
+}
+
+/*************
+BOX-MODEL-MANIPULATION
+**************/
+.clear  {
+  clear:both;
+}
+
+.marRight40 {
+  margin-right:40px;
+}
+
+
+
+.page-wrap  {
+  width:960px;
+  overflow:hidden;
+  margin:0
+  auto;
+}
+
+.overFlow {
+  overflow:hidden;
+}
+.box {
+  width:460px;
+  float:left;
+  margin-bottom:40px;
+}
+
+.button {
+  text-align:center;
+  width:70px;
+  height:40px;
+  margin-top:10px;
+}
+
+/*************
+HEADER
+**************/
+.header-wrap {
+  width:960px;
+  margin:0px auto 50px auto;
+}
+
+.header-title {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 200px;
+}
+
+.header-title h1 {
+  font-size: 70px;
+  color:#DF744A;
+  text-align:center;
+  text-shadow:-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  letter-spacing: 3px;
+}
+/*************
+GRID
+**************/
+
+.grid {
+  overflow:hidden;
+  background: #FEDCD2;
+  padding:30px;
+}
+.title {
+  margin-bottom: 15px;
+  margin-top: 10px;
+}
+.content img  {
+  margin-right:20px;
+  float:left;
+}
+.content p  {
+  padding-bottom: 25px;
+}
+
+
+
+
+
+/*************
+BANNER
+**************/
+.banner-wrap  {
+  background-color:#DCB239;
+  margin-bottom:70px;
+  margin-top:70px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+
+
+/*************
+Contact
+**************/
+.contact-wrap {
+  background-color: #FEDCD2;
+  width:900px;
+  margin:30px auto 0px auto;
+  padding:30px;
+}
+.contact-wrap .title  {
+  margin-bottom:0px;
+}
+.contact-wrap .title h1 {
+  color:#DF744A;
+}
+.contact-form {
+  overflow:hidden;
+}
+.contact-form label {
+  display: block;
+  margin-top:20px;
+}
+.contact-form .info {
+  width:900px;
+  height:40px;
+  background-color: #BFD8D2;
+  text-indent:5px;
+  border:none;
+  color:#000;
+  font-family: 'Latao';
+  font-size:17px;
+}
+.contact-form .desc  {
+  width:900px;
+  height:150px;
+  background-color: #BFD8D2;
+  text-indent:15px;
+  border:none;
+  color:#000;
+  font-family: 'Latao';
+  font-size: 20px;
+}
+.subema {
+  color: #DF744A;
+}
+
+
+
+/*************
+FOOTER
+**************/
+
+
+.copyright-wrap {
+  overflow:hidden;
+}
+.copyright  {
+  width:960px;
+  margin:0 auto;
+  padding-top:35px;
+  padding-bottom:5px;
+}
+.copyright .content p {
+  color:#707C80;
+  font-size:12px;
+}
